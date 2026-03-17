@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShelf - プライバシーポリシー</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8; color: #333; background-color: #f9f9f9; padding: 20px;
+        }
+        .container {
+            max-width: 720px; margin: 0 auto; background: #fff;
+            padding: 40px 32px; border-radius: 12px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+        }
+        h1 { font-size: 1.6em; margin-bottom: 8px; color: #1a1a1a; }
+        .app-name { font-size: 0.95em; color: #666; margin-bottom: 24px; }
+        h2 {
+            font-size: 1.15em; margin-top: 32px; margin-bottom: 12px;
+            padding-bottom: 6px; border-bottom: 2px solid #e8e8e8; color: #1a1a1a;
+        }
+        p { margin-bottom: 12px; }
+        ul { margin: 8px 0 12px 24px; }
+        li { margin-bottom: 4px; }
+        .effective-date {
+            margin-top: 40px; padding-top: 20px;
+            border-top: 1px solid #e8e8e8; font-size: 0.9em; color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
+        <p class="app-name">BookShelf（com.nksapplab.bookshelf）</p>
+
+        <h2>はじめに</h2>
+        <p>本プライバシーポリシーは、iOSアプリ「BookShelf」（以下「本アプリ」）における個人情報の取り扱いについて説明するものです。</p>
+
+        <h2>データの収集について</h2>
+        <p>本アプリは、以下の個人情報を収集・保存しません。</p>
+        <ul>
+            <li>氏名、メールアドレス、電話番号などの個人識別情報</li>
+            <li>位置情報</li>
+            <li>広告識別子</li>
+            <li>端末固有の識別情報</li>
+        </ul>
+        <p>本アプリはユーザーアカウントの作成を必要としません。</p>
+
+        <h2>データの保存について</h2>
+        <p>本アプリで入力された蔵書データは、SwiftDataフレームワークを使用してお使いの端末内にのみローカル保存されます。クラウド同期や外部サーバーへのバックアップは行いません。</p>
+        <p>アプリを削除すると、保存されたデータもすべて端末から削除されます。</p>
+
+        <h2>外部サービスとの通信について</h2>
+        <p>本アプリは、書籍情報の検索機能を提供するために、Google Books APIに対して以下のデータを送信します。</p>
+        <ul>
+            <li>ユーザーが入力した書籍の検索クエリ（書籍名・著者名など）</li>
+            <li>ISBNコード（バーコードスキャン時）</li>
+        </ul>
+        <p>これらの情報は書籍情報の取得のみに使用され、個人を特定するデータではありません。通信はすべて暗号化通信（HTTPS）で行われます。</p>
+        <p>Google Books APIのデータ取り扱いについては、<a href="https://policies.google.com/privacy" target="_blank">Googleプライバシーポリシー</a>をご参照ください。</p>
+
+        <h2>第三者へのデータ提供について</h2>
+        <p>本アプリは、上記の書籍検索機能に必要な通信を除き、ユーザーのデータを第三者に提供・共有・販売することはありません。広告SDKや解析SDKなどの第三者サービスは組み込んでいません。</p>
+
+        <h2>分析ツール</h2>
+        <p>本アプリは、サードパーティの分析ツールやトラッキングツールを使用していません。</p>
+
+        <h2>お子様のプライバシーについて</h2>
+        <p>本アプリは13歳未満のお子様を対象としておらず、意図的にお子様から個人情報を収集することはありません。</p>
+
+        <h2>プライバシーポリシーの変更について</h2>
+        <p>本プライバシーポリシーは、必要に応じて更新されることがあります。変更があった場合は、本ページにて更新内容を公開します。</p>
+
+        <h2>お問い合わせ</h2>
+        <p>本プライバシーポリシーに関するご質問がございましたら、以下までご連絡ください。</p>
+        <p>開発者: Hiroki Nakasu</p>
+        <p>メール: nks.applab@gmail.com</p>
+
+        <p class="effective-date">制定日: 2026年3月17日<br>最終更新日: 2026年3月17日</p>
+    </div>
+</body>
+</html>
